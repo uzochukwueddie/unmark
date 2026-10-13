@@ -1,0 +1,14 @@
+node_modules
+dist
+dist-ssr
+*.local
+.DS_Store
+*.tsbuildinfo
+
+# Generated at install/build time by scripts/copy-ort.mjs — never committed,
+# because these are just copies of files that live in node_modules.
+public/ort/
+
+# Logs
+npm-debug.log*
+yarn-error.log*
